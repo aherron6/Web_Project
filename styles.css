@@ -1,0 +1,79 @@
+
+body{
+top:0;
+bottom:0;
+left:0;
+right:0;
+position: relative;
+font-family: paragraph;
+background-color: #F2EFEC;
+}
+ul{
+list-style-type: none;
+margin:0;
+padding:0;
+overflow:hidden;
+position:relative;
+top:0;
+background-color:#D3C0B2 ;
+}
+
+li{
+	float:left;
+}
+li a{
+	float:left;
+	text-align: center;
+	padding:20px;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-family:nav;
+}
+
+li a:hover{
+	background-color: white;
+	color:#D3C0B2;
+}
+
+h1{
+	color:#A99282;
+	text-decoration: underline;
+	font-size: 40px;
+	font-family: headings;
+}
+
+a[href^="mailto"]{
+	font-family: nav;
+	color:#A99282;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+a[href^="mailto"]:hover{
+	background-color: white;
+	color:#A99282;
+}
+
+h2,h4,h5{
+	color:#A99282;
+}
+
+img.social:hover{
+	opacity: .5;
+}
+
+@font-face{
+	font-family: paragraph;
+	src:url(media/Classy.ttf);
+}
+
+@font-face{
+	font-family: headings;
+	src:url(media/Remaid.ttf);
+}
+
+@font-face{
+	font-family: nav;
+	src:url(media/Sweet.otf);
+}
